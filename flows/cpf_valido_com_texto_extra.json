@@ -1,0 +1,9 @@
+{
+  "nome": "CPF valido com texto extra",
+  "delay_padrao": 8,
+  "passos": [
+    {"mensagem": "Oi, recebi SMS sobre refinanciamento, quero conhecer", "delay": 12},
+    {"mensagem": "Meu CPF eh {{cpf}}", "delay": 10},
+    {"mensagem": "Li e autorizo", "delay": 12}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "nome": "Fluxo infeliz - CPF inválido",
+  "delay_padrao": 4,
+  "passos": [
+    {"mensagem": "Oi, recebi SMS sobre refinanciamento, quero conhecer", "delay": 5},
+    {"mensagem": "Li e autorizo", "delay": 5},
+    {"mensagem": "000.000.000-00", "delay": 5},
+    {"mensagem": "111.111.111-11", "delay": 5}
+  ]
+}

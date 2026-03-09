@@ -1,0 +1,10 @@
+{
+  "nome": "Fluxo feliz - Agendar consulta",
+  "descricao": "Simula usuário escolhendo Agendar consulta no menu do LabClinica",
+  "delay_padrao": 3,
+  "passos": [
+    {"mensagem": "oi", "delay": 3},
+    {"mensagem": "Agendar consulta", "delay": 4},
+    {"mensagem": "006.394.547-12", "delay": 3}
+  ]
+}

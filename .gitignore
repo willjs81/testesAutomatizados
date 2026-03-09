@@ -1,0 +1,10 @@
+venv/
+.env
+whatsapp_chrome_profile/
+logs/
+__pycache__/
+*.pyc
+.pytest_cache/
+Untitled
+
+.env.example

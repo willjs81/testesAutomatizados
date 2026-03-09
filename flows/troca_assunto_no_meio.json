@@ -1,0 +1,10 @@
+{
+  "nome": "Troca de assunto no meio do fluxo",
+  "delay_padrao": 8,
+  "passos": [
+    {"mensagem": "Oi, recebi SMS sobre refinanciamento, quero conhecer", "delay": 12},
+    {"mensagem": "{{cpf}}", "delay": 10},
+    {"mensagem": "Qual o horario de atendimento?", "delay": 8},
+    {"mensagem": "Li e autorizo", "delay": 12}
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "cenarios": [
+    {
+      "id": "fluxo_feliz",
+      "nome": "Fluxo feliz",
+      "descricao": "Aceita oferta e conclui ate dados bancarios",
+      "fluxo": "flows/fluxo_feliz.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "aceite_oferta",
+      "nome": "Aceite de oferta",
+      "descricao": "Confirma a primeira oferta apresentada",
+      "fluxo": "flows/aceite_oferta.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "recusa_oferta",
+      "nome": "Recusa de oferta",
+      "descricao": "Escolhe Agora nao na oferta",
+      "fluxo": "flows/recusa_oferta.json",
+      "cpf_index": 1
+    },
+    {
+      "id": "outro_valor",
+      "nome": "Edicao de valores",
+      "descricao": "Escolhe Outro valor para ver outras ofertas",
+      "fluxo": "flows/outro_valor.json",
+      "cpf_index": 1
+    },
+    {
+      "id": "input_inesperado",
+      "nome": "Input inesperado",
+      "descricao": "Envia mensagem fora do contexto esperado",
+      "fluxo": "flows/input_inesperado.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "retomada_input_inesperado",
+      "nome": "Retomada apos input inesperado",
+      "descricao": "Envia ruido e tenta retomar o fluxo normal",
+      "fluxo": "flows/retomada_apos_input_inesperado.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "inatividade",
+      "nome": "Inatividade",
+      "descricao": "Interrompe o fluxo no meio (simula abandono)",
+      "fluxo": "flows/inatividade.json",
+      "cpf_index": 1
+    },
+    {
+      "id": "fluxo_infeliz",
+      "nome": "Fluxo infeliz",
+      "descricao": "CPF invalido ou dados incorretos",
+      "fluxo": "flows/fluxo_infeliz.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "consentimento_negado",
+      "nome": "Consentimento negado",
+      "descricao": "Usuario nao autoriza continuidade",
+      "fluxo": "flows/consentimento_negado.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "cpf_formato_invalido_corrige",
+      "nome": "CPF formato invalido e correcao",
+      "descricao": "Envia CPF curto e depois corrige com CPF valido",
+      "fluxo": "flows/cpf_formato_invalido_corrige.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "cpf_repetido_invalido",
+      "nome": "CPF repetido invalido",
+      "descricao": "Tenta varios CPFs invalidos sequenciais",
+      "fluxo": "flows/cpf_repetido_invalido.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "cpf_texto_extra",
+      "nome": "CPF com texto extra",
+      "descricao": "Envia CPF junto com texto livre",
+      "fluxo": "flows/cpf_valido_com_texto_extra.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "cep_invalido_corrige",
+      "nome": "CEP invalido e correcao",
+      "descricao": "Envia CEP invalido e corrige em seguida",
+      "fluxo": "flows/cep_invalido_corrige.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "numero_invalido_corrige",
+      "nome": "Numero invalido e correcao",
+      "descricao": "Envia numero de casa invalido e corrige",
+      "fluxo": "flows/numero_casa_invalido_corrige.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "banco_invalido_corrige",
+      "nome": "Banco invalido e correcao",
+      "descricao": "Envia banco invalido e corrige",
+      "fluxo": "flows/banco_invalido_corrige.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "agencia_invalida_corrige",
+      "nome": "Agencia invalida e correcao",
+      "descricao": "Envia agencia invalida e corrige",
+      "fluxo": "flows/agencia_invalida_corrige.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "dupla_confirmacao_oferta",
+      "nome": "Dupla confirmacao de oferta",
+      "descricao": "Repete confirmacao apos aceite inicial",
+      "fluxo": "flows/dupla_confirmacao_oferta.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "troca_assunto_meio_fluxo",
+      "nome": "Troca de assunto no meio",
+      "descricao": "Pergunta fora do fluxo e tenta continuar",
+      "fluxo": "flows/troca_assunto_no_meio.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "reinicio_conversa",
+      "nome": "Reinicio da conversa",
+      "descricao": "Envia oi novamente no meio do processo",
+      "fluxo": "flows/reinicio_conversa.json",
+      "cpf_index": 0
+    },
+    {
+      "id": "teste_cpf",
+      "nome": "Teste ate CPF",
+      "descricao": "Smoke do inicio ate validacao de CPF",
+      "fluxo": "flows/teste_cpf.json",
+      "cpf_index": 0
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"nome":"Edição de valores - Outro valor","delay_padrao":8,"passos":[{"mensagem":"Oi, recebi SMS sobre refinanciamento, quero conhecer","delay":12},{"mensagem":"{{cpf}}","delay":10},{"mensagem":"Li e autorizo","delay":12},{"mensagem":"Outro valor","delay":60,"aguardar_oferta":true},{"mensagem":"Sim, confirmo","delay":10}]}

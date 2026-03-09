@@ -1,0 +1,17 @@
+{
+  "nome": "Fluxo feliz - Refinanciamento completo",
+  "delay_padrao": 8,
+  "passos": [
+    {"mensagem": "Oi, recebi SMS sobre refinanciamento, quero conhecer", "delay": 12},
+    {"mensagem": "{{cpf}}", "delay": 10},
+    {"mensagem": "Li e autorizo", "delay": 12},
+    {"mensagem": "Sim, confirmo", "delay": 60, "aguardar_oferta": true},
+    {"mensagem": "{{cep}}", "delay": 8},
+    {"mensagem": "Sim, confirmo", "delay": 8},
+    {"mensagem": "{{numero}}", "delay": 6},
+    {"mensagem": "Não tenho", "delay": 6},
+    {"mensagem": "Sim, confirmo", "delay": 6},
+    {"mensagem": "{{banco}}", "delay": 6},
+    {"mensagem": "{{agencia}}", "delay": 5}
+  ]
+}

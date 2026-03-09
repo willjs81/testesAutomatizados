@@ -1,0 +1,16 @@
+{
+  "nome": "Teste até CPF",
+  "delay_padrao": 8,
+  "passos": [
+    {
+      "mensagem": "Oi, recebi SMS sobre refinanciamento, quero conhecer",
+      "delay": 12,
+      "resposta_esperada": "CPF"
+    },
+    {
+      "mensagem": "{{cpf}}",
+      "delay": 10,
+      "resposta_esperada": "autorizo"
+    }
+  ]
+}

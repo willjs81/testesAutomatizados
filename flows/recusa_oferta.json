@@ -1,0 +1,1 @@
+{"nome":"Recusa de oferta","delay_padrao":8,"passos":[{"mensagem":"Oi, recebi SMS sobre refinanciamento, quero conhecer","delay":12},{"mensagem":"{{cpf}}","delay":10},{"mensagem":"Li e autorizo","delay":12},{"mensagem":"Agora não","delay":60,"aguardar_oferta":true}]}

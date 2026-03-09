@@ -1,0 +1,1 @@
+from test_etapa_06_dados_bancarios import test_etapa_06_dados_bancarios as test_fluxoSeguroSemEdicaoE2E

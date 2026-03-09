@@ -1,0 +1,9 @@
+{
+  "nome": "Consentimento negado",
+  "delay_padrao": 8,
+  "passos": [
+    {"mensagem": "Oi, recebi SMS sobre refinanciamento, quero conhecer", "delay": 12},
+    {"mensagem": "{{cpf}}", "delay": 10},
+    {"mensagem": "Nao autorizo", "delay": 12}
+  ]
+}

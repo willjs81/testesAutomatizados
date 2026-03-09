@@ -1,0 +1,10 @@
+{
+  "nome": "CPF em formato invalido e correcao",
+  "delay_padrao": 8,
+  "passos": [
+    {"mensagem": "Oi, recebi SMS sobre refinanciamento, quero conhecer", "delay": 12},
+    {"mensagem": "123", "delay": 10},
+    {"mensagem": "{{cpf}}", "delay": 10},
+    {"mensagem": "Li e autorizo", "delay": 12}
+  ]
+}

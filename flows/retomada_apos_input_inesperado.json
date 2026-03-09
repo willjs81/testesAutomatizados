@@ -1,0 +1,11 @@
+{
+  "nome": "Retomada apos input inesperado",
+  "delay_padrao": 8,
+  "passos": [
+    {"mensagem": "Oi, recebi SMS sobre refinanciamento, quero conhecer", "delay": 12},
+    {"mensagem": "{{cpf}}", "delay": 10},
+    {"mensagem": "mensagem sem sentido 123 ???", "delay": 8},
+    {"mensagem": "Li e autorizo", "delay": 12},
+    {"mensagem": "Sim, confirmo", "delay": 60, "aguardar_oferta": true}
+  ]
+}
